@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Mawi();</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <h3>Mawi_;</h3>
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+                <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+        <div class="title">
+        <h2>About Me</h2>
+        </div>
+        <div class="container">
+        <div class="container d-grid rounded-5 custom-bg-color custom-container">
+            <div class="row justify-content-center align-items-center ">
+            <div class="col-12 col-md-6 col-lg-5 custom-center">
+                <img src="images/gtr.jpg" class="rounded-circle custom-img-size"alt="">
+            </div>
+                <div class="col-12 col-md-5 col-lg-6 text-white ">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In architecto repellat temporibus culpa voluptatum inventore explicabo ratione velit nobis maiores corrupti nemo molestiae eius, ipsa dolore molestias, quidem rerum voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloremque totam aliquam dolores, porro non a dolorem aliquid ducimus architecto ea molestiae minima vel doloribus tempora deleniti, vero voluptatem ratione!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad illum veniam sint fugit, ratione labore iste, voluptatem similique necessitatibus iure perferendis quaerat ipsum ut illo aut reiciendis est alias. Culpa.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+        <div class="skills">
+            <h4><span>Skills</span></h4>
+        </div>
+        <div class="skill">
+        <h5>Tech Stack</h5>
+    </div>
+    <div class="d-grid container">
+        <div class="row mb-5">
+        <div class="container container-hover rounded-3 custom-border custom-bg-color container-margin custom-container-size">
+            <div class="row mt-3 hover" >
+            <div class="col-4" style="margin-left: 20px;">
+            <img width="40" height="40" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+        </div>
+            <div class="col custom-text-color">
+            <h3 class="hover-text">Intermediate</h3>
+            <h3 class="pop">HTML</h3>
+        </div>
+        </div>
+        </div>
+        <div class="container container-hover rounded-3 custom-border custom-bg-color container-margin custom-container-size">
+            <div class="row mt-3 hover">
+                <div class="col-4"  style="margin-left: 20px;">
+            <img width="40" height="40" src="https://img.icons8.com/fluency/48/css3.png" alt="css3"/>
+        </div>
+        <div class="col custom-text-color">
+            <h3 class="hover-text">Intermediate</h3>
+            <h3 class="pop"> CSS </h3>
+        </div>
+        </div>
+    </div>
+    <div class="container container-hover rounded-3 custom-border custom-bg-color container-margin custom-container-size">
+        <div class="row mt-3 hover">
+            <div class="col-4" style="margin-left: 15px;" >
+                <img width="40" height="40" src="https://img.icons8.com/color/48/tailwind_css.png" alt="tailwind_css"/>
+    </div>
+    <div class="col custom-text-color">
+        <h3 class="hover-text">Beginner</h3>
+        <h3 class="pop">Tailwind</h3>
+    </div>
+    </div>
+</div>
+<div class="container rounded-3 container-hover custom-border custom-bg-color container-margin custom-container-size">
+    <div class="row mt-3 hover">
+        <div class="col-3" style="margin-left: 15px;" >
+            <img width="40" height="40" src="https://img.icons8.com/color-glass/48/bootstrap.png" alt="bootstrap"/>
+</div>
+<div class="col custom-text-color" style="margin-left: 40px;">
+    <h3 class="hover-text">Beginner</h3>
+    <h3 class="pop">Bootstrap</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+    
+    hamburger.addEventListener('click', ()=>{
+       //Animate Links
+        navLinks.classList.toggle("open");
+        links.forEach(link => {
+        });
+    
+        //Hamburger Animation
+        hamburger.classList.toggle("toggle");
+});</script>
+</body>
+</html>
