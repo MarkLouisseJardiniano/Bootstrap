@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Mawi();</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-            <h3>Mawi_;</h3>
-            </div>
-            <div class="hamburger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-                <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                </ul>
-        </nav>
-    </header>
+<body class="bg">
+<nav class="navbar navbar-expand-lg bg">
+    <div class="container-fluid">
+        <h2 class="custom-text-color ms-3">Mawi();</h2>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon hamburger mt-1"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="custom-text-color text-decoration-none mx-3 fw-bold active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="custom-text-color text-decoration-none mx-3 fw-bold" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="custom-text-color text-decoration-none mx-3 fw-bold" href="project.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="custom-text-color text-decoration-none mx-3 fw-bold" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <div class="title">
         <h2>Contact</h2>
     </div>
@@ -120,24 +127,10 @@
             </div>
             </div>
             <div class="d-grid mx-auto col-3" >
-            <button class="btn btn-primary mt-4">Submit</button>
+            <button class="btn btn-color custom-text-color  mt-4">Submit</button>
             </div>
         </div>
     </div>
 
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-            const navLinks = document.querySelector(".nav-links");
-            const links = document.querySelectorAll(".nav-links li");
-            
-            hamburger.addEventListener('click', ()=>{
-               //Animate Links
-                navLinks.classList.toggle("open");
-                links.forEach(link => {
-                });
-            
-                //Hamburger Animation
-                hamburger.classList.toggle("toggle");
-        });</script>
 </body>
 </html>
